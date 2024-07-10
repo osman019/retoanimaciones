@@ -1,0 +1,38 @@
+body{
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+    z-index: 1;
+}
+.fondo{
+ display: flex;
+ flex-direction: column;
+  z-index: 1;
+}
+.nube1{
+    height: 12vh;
+    width: 12vw;
+    animation: nube 10s infinite;
+    position: absolute;
+    z-index: 1;
+
+}
+.nube2{
+    height: 12vh;
+    width: 15vw;
+    animation: nube 10s infinite;
+    position: absolute;
+    z-index: 1;
+    
+    top: 15vw;
+}
+@keyframes nube{
+    from{
+        margin-left: -30%;
+
+    }
+    to{
+        margin-left: 110%;
+    }
+}

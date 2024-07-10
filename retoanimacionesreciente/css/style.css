@@ -1,0 +1,84 @@
+body{
+        font-family: 'Alfa Slab One', cursive;
+        font-size:6rem;
+        text-align: center;
+        background-color: dimgray;
+  
+}
+
+.uno{
+    color: aquamarine; 
+    height: 2em;
+    animation-name: lt;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    display: inline-block;
+}
+.dos{
+    color: darkgrey;
+    height: 2em;
+    animation-name: lt;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    display: inline-block;
+}
+.tres{
+    color: aquamarine ;
+    height: 2em;
+    animation-name: lt;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    display: inline-block;
+}
+.cuatro{
+    color: darkgray;
+    height: 2em;
+    animation-name: lt;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    display: inline-block;
+}
+.cinco{
+    color: aquamarine;
+    height: 2em;
+    animation-name: lt;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    display: inline-block;
+
+}
+.seis{
+    color: darkgrey;
+    height: 2em;
+    animation-name: lt;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    display: inline-block;
+   
+} 
+.siete{
+    color: aquamarine;
+    height: 2em;
+    animation-name: lt;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    display: inline-block;
+}
+
+
+.letter {
+    display: inline-block;
+    font-size: 3rem;
+    opacity: 0;
+    transform: rotate(0deg);
+    animation: lt 1s forwards;
+    animation-timing-function: linear;
+}
+
+
+
+@keyframes lt {
+    30% {transform: rotateX(-180deg);
+     
+}
+}

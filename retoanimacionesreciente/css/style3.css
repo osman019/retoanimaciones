@@ -1,0 +1,61 @@
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+overflow: hidden;
+background-repeat: no-repeat;
+background-size: 100%;
+
+
+
+}
+.carretera{
+   position: relative;
+   display: flex;
+   margin-top: auto;
+   overflow: hidden;
+   animation-duration: 5s;
+   animation-iteration-count: infinite;
+
+   width: 100%;
+
+}
+.persona{
+   position: absolute;
+   height: 500vw;
+   width: 30vw;
+   animation-name: ps;
+ top: 0%;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+z-index: 1;
+left: 50%;
+}
+@keyframes ps{
+0% {top: 0vw;}
+10% {top: 0vw;}
+10.00001% {top: -50vw;}
+20% {top: -50vw;}
+20.00001% {top: 100vw;}
+30% {top: -100vw;}
+30.00001% {top: -150vw;}
+40% {top: -150vw;}
+40.00001% {top: -200vw;}
+50% {top: -200vw;}
+50.00001% {top: -250vw;}
+60% {top: -250vw;}
+60.00001%{top: -300vw;}
+70% {top: -300vw;}
+70.00001% {top: -350vw;}
+80% {top: -350vw;}
+80.00001% {top: -400vw;}
+90% {top: -400vw;}
+90.00001% {top: -450vw;}
+100% {top: -450vw;}
+
+
+
+
+
+
+}
